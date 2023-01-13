@@ -27,8 +27,15 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor2));
-    min-height: 80px;
-    padding-top: 20px;
+    min-height: 100px;
+    padding-top: 10px;
+}
+
+header > img {
+    text-align: left;     
+    display: inline-block;   
+    width: 140px;
+    height: 140px;
 }
 
 header > h1 {
@@ -38,9 +45,8 @@ header > h1 {
     font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 2px 2px 2px #00000070;
-    text-align: center;
     margin: auto;
-    display: inline-block;
+    text-align: center;    
 }
 
 header > p {
@@ -51,17 +57,7 @@ header > p {
     padding-bottom: 20px;
 }
 
-header > img {
-    width: 100px;
-    height: 100px;
-    margin-right: 50px;
-}
 
-.gradiente {
-    background-image: linear-gradient(to bottom, var(--cor0), var(--cor2));
-    min-height: 80px;
-    padding-top: 20px;
-}
 
 nav {
     background-color: var(--cor0);
