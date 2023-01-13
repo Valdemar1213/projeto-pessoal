@@ -46,6 +46,12 @@ header > p {
     font-family: var(--fonte-padrao);
 }
 
+header img {
+    width: 70px;
+    height: 70px;
+    margin: 0px;
+}
+
 nav {
     background-color: var(--cor0);
     padding: 10px;
