@@ -54,7 +54,7 @@ header > p {
 header > img {
     width: 100px;
     height: 100px;
-    margin-right: 50px;    
+    margin-right: 50px;
 }
 
 nav {
@@ -149,6 +149,22 @@ aside > h3 {
     padding: 10px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
+}
+
+aside > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.destaque1 {
+    background-color: var(--cor4);
+    color: var(--cor1);
+}
+
+.destaque2 {
+    font-weight: bold;
+    color: black;
 }
 
 aside > ul {
