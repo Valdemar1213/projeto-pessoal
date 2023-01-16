@@ -190,6 +190,7 @@ footer a {
 }
 
 form {
+    background-color: white;
     margin: 0 auto;
     width: 400px;
     padding: 1em;
@@ -235,4 +236,8 @@ textarea {
 
 button {
     margin-left: .5em;
+}
+
+main#contatoback {
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor3));
 }
