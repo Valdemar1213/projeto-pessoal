@@ -21,7 +21,9 @@
 }
 
 body {
-    background-color: var(--cor0);
+    height: 98vh;
+    background: var(--cor1) url('../imagens/fundo01.jpg') center center no-repeat fixed;
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
 }
 
