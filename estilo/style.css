@@ -137,7 +137,30 @@ main a:hover {
 }
 
 main img {
-    width: 100%;
+    margin-right: 5px;
+}
+
+p.image {
+    width: 16px;
+    height: 16px;
+}
+
+article > h2 {
+    font-family: var(--fonte-padrao);
+    color: var(--cor1);
+    font-size: 1.4em;
+    font-weight: normal;
+    background-image: linear-gradient(to right, var(--cor4), transparent);
+    text-indent: 8px;
+    margin-top: 10px;
+}
+
+div.contatos {
+    padding: 0px;
+    margin: 10px 1px 10px 1px;
+    border: 2px solid var(--cor3);
+    border-radius: 10px;
+    font-size: 0.8em;
 }
 
 aside {
@@ -198,6 +221,14 @@ form {
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
+}
+
+form > div.borda {
+    border: 2px solid var(--cor3);
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 1px;
 }
 
 form div + div {

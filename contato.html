@@ -21,25 +21,34 @@
     </nav>
     <main id="contatoback">
         <form action="/pagina-processa-dados-do-form" method="post">
-            <div>
-                <label for="name">Nome:</label>
-                <input type="text" id="name" />
+            <div class="borda">
+                <div>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" />
+                </div>
+                <div>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" />
+                </div>
+                <div>
+                    <label for="msg">Mensagem:</label>
+                    <textarea id="msg"></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit">Enviar sua mensagem</button>
+                </div>
             </div>
-            <div>
-                <label for="mail">E-mail:</label>
-                <input type="email" id="mail" />
-            </div>
-            <div>
-                <label for="msg">Mensagem:</label>
-                <textarea id="msg"></textarea>
-            </div>
-            <div class="button">
-                <button type="submit">Enviar sua mensagem</button>
-            </div>
+            <article>
+                <h2>Meus Contatos:</h2>
+                <div class="contatos">
+                    <p><img src="imagens/instagram-ico.png" alt="Instagram" width="16px" height="16px"><a href="https://www.instagram.com/valdemarsantana12/?hl=pt-br" target="_blank" rel="external">Me segue lá !!</a></p>
+                    <p><img src="imagens/placa-do-github-ico.png" alt="GitHub" width="16px" height="16px"><a href="https://github.com/Valdemar1213" target="_blank" rel="external">Acesse aqui meus repositórios !!</a></p>
+                </div>
+            </article>
         </form>
     </main>
     <footer>
-        Site criado por <a href="https://github.com/Valdemar1213">Valdemar Santana</a>
+        Site criado por <a href="https://github.com/Valdemar1213" target="_blank" rel="external">Valdemar Santana</a>
     </footer>
 </body>
 </html>
