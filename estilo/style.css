@@ -109,6 +109,15 @@ main h2 {
     text-indent: 8px;
 }
 
+main h3 {
+    font-family: var(--fonte-padrao);
+    color: var(--cor1);
+    font-size: 1.2em;
+    font-weight: normal;
+    background-image: linear-gradient(to right, var(--cor4), transparent);
+    text-indent: 8px;
+}
+
 main p {
     margin: 15px 0px;
     text-align: justify;
@@ -273,4 +282,18 @@ button {
 
 main#contatoback {
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor3));
+}
+
+iframe {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.media {
+    list-style-type: '\2705\00A0\00A0';
+    list-style-position: inside;
+    margin: 5px;
+    padding: 5px;
 }
